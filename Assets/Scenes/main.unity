@@ -1806,7 +1806,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -120}
+  m_AnchoredPosition: {x: 0, y: 50}
   m_SizeDelta: {x: 200, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &253230292
@@ -2818,6 +2818,7 @@ MonoBehaviour:
   ui_question: {fileID: 973615324}
   ui_value: {fileID: 730210393}
   ui_lank: {fileID: 623784815}
+  newItemImage: {fileID: 253230292}
 --- !u!1 &396044110
 GameObject:
   m_ObjectHideFlags: 0
@@ -6572,8 +6573,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 200}
-  m_SizeDelta: {x: -100, y: -500}
+  m_AnchoredPosition: {x: 0, y: 215}
+  m_SizeDelta: {x: -100, y: -470}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &973615324
 MonoBehaviour:
@@ -8405,7 +8406,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 100}
+  m_AnchoredPosition: {x: 0, y: -80}
   m_SizeDelta: {x: 700, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1342619391
@@ -8430,18 +8431,18 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: e9e784662e71b0a43acf7f1d44082fd2, type: 3}
-    m_FontSize: 100
+    m_FontSize: 80
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
     m_MaxSize: 100
-    m_Alignment: 1
+    m_Alignment: 7
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "<\u5FC5\u8981\u306A\u91D1\u984D>"
+  m_Text: "\u2605\u5FC5\u8981\u306A\u30DD\u30A4\u30F3\u30C8"
 --- !u!222 &1342619392
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -12420,8 +12421,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   p_obj: {fileID: 8860257411194470083, guid: 04480a26c57477442b368432b5c02b27, type: 3}
-  isSaveMode: 0
-  isLoadMode: 0
+  isSaveMode: 1
+  isLoadMode: 1
 --- !u!4 &2079509533
 Transform:
   m_ObjectHideFlags: 0
@@ -12515,7 +12516,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 800, y: 800}
+  m_SizeDelta: {x: 800, y: 700}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2116860872
 MonoBehaviour:
@@ -12701,7 +12702,7 @@ PrefabInstance:
     - target: {fileID: 8822878121766058205, guid: 556f71341fe854d07bc7ddc206b56baf,
         type: 3}
       propertyPath: level
-      value: 99
+      value: 198
       objectReference: {fileID: 0}
     - target: {fileID: 8822878121766058205, guid: 556f71341fe854d07bc7ddc206b56baf,
         type: 3}

@@ -14,6 +14,8 @@ public class UI_CheckWindow : MonoBehaviour {
 
     public Text ui_question, ui_value, ui_lank;
 
+    public Image newItemImage;
+
     void Awake() {
         instance = this;
         UI_background.GetComponent<Image>().color = new Color(1, 1, 1, 0);
@@ -21,7 +23,7 @@ public class UI_CheckWindow : MonoBehaviour {
         UI_window.transform.localScale = Vector3.zero;
     }
 
-    public void Open(bool canSelect, string question, Money money) {
+    public void Open(bool canSelect, string question, Money money, Sprite itemImage) {
         ObjectMaker.instance.isMainWindow = false;
         var img = UI_background.GetComponent<Image>();
         img.transform.localScale = Vector3.one;
@@ -37,6 +39,11 @@ public class UI_CheckWindow : MonoBehaviour {
         ui_question.text = question;
         ui_value.text = money.GetValueString();
         ui_lank.text = money.GetLankString();
+        newItemImage.sprite = itemImage;
+        var spriteSize = newItemImage.sprite.bounds.size;
+        var per = 200 / Mathf.Max(spriteSize.x, spriteSize.y);
+        var rect = newItemImage.GetComponent<RectTransform>();
+        rect.sizeDelta = spriteSize * per;
     }
 
     public void Close() {

@@ -179,7 +179,7 @@ public class ObjectMaker : MonoBehaviour {
 
     public void OnLevelUpSelected() {
         var window = UI_CheckWindow.instance; 
-        window.Open(canLevelUp, "レベルを上げますか？", necessaryMoneyForLevelUp);
+        window.Open(canLevelUp, $"「{objectNameList[level + 1]}」\nを仕入れますか？", necessaryMoneyForLevelUp, objectList[level + 1]);
         window.OnYes(() => {
             MoneyMgr.instance.UseMoney(necessaryMoneyForLevelUp);
             LevelUp();
