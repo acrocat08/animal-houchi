@@ -24,6 +24,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -32,9 +33,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -51,7 +52,7 @@ TextureImporter:
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
-  spriteTessellationDetail: -1
+  spriteTessellationDetail: 0
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
@@ -91,15 +92,42 @@ TextureImporter:
     serializedVersion: 2
     sprites: []
     outline: []
-    physicsShape: []
+    physicsShape:
+    - - {x: 76.40161, y: 345.1665}
+      - {x: -17.795044, y: 323.8565}
+      - {x: 1.3210449, y: 270.60583}
+      - {x: 64.64752, y: 239.47949}
+      - {x: 24.411865, y: 185.81299}
+      - {x: 3.649231, y: 88.28223}
+      - {x: -62.780884, y: -13.339355}
+      - {x: -79.84932, y: -166.48471}
+      - {x: -116.30252, y: -231.25027}
+      - {x: -173.70035, y: -275.64343}
+      - {x: -306.53073, y: -312.18448}
+      - {x: -302, y: -338}
+      - {x: -278, y: -340}
+      - {x: -120.41203, y: -327.91803}
+      - {x: -11.646637, y: -341.7602}
+      - {x: 168.81284, y: -338.63693}
+      - {x: 195.57172, y: -315.83603}
+      - {x: 109.382935, y: -292.81985}
+      - {x: 169.12723, y: -241.06158}
+      - {x: 215.7832, y: -91.6138}
+      - {x: 174.25354, y: 40.23221}
+      - {x: 276.4073, y: 125.065094}
+      - {x: 275.83752, y: 187.36163}
+      - {x: 138.07767, y: 242.48755}
+      - {x: 172.76025, y: 277.8504}
+      - {x: 172.97733, y: 343.48975}
     bones: []
     spriteID: 5e97eb03825dee720800000000000000
-    internalID: 0
+    internalID: 1537655665
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable: {}
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

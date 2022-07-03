@@ -24,6 +24,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -32,9 +33,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -51,7 +52,7 @@ TextureImporter:
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
-  spriteTessellationDetail: -1
+  spriteTessellationDetail: 0
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
@@ -91,15 +92,34 @@ TextureImporter:
     serializedVersion: 2
     sprites: []
     outline: []
-    physicsShape: []
+    physicsShape:
+    - - {x: -46.686096, y: 367.17798}
+      - {x: -109.73302, y: 294.42212}
+      - {x: -193.45703, y: 267.04138}
+      - {x: -247.53398, y: 231.50806}
+      - {x: -226.96454, y: 208.79224}
+      - {x: -163.33003, y: 71.81439}
+      - {x: -189.7958, y: -131.3974}
+      - {x: -159.50809, y: -201.48004}
+      - {x: -152.09601, y: -343.12405}
+      - {x: 32.252197, y: -392.80682}
+      - {x: 88.56201, y: -375.918}
+      - {x: 232.63, y: -271.76807}
+      - {x: 203.84839, y: -132.22058}
+      - {x: 189.48004, y: 55.274017}
+      - {x: 161.48236, y: 138.22845}
+      - {x: 97.572235, y: 221.56671}
+      - {x: 94.2926, y: 305.08258}
+      - {x: 40.932037, y: 360.274}
     bones: []
     spriteID: 5e97eb03825dee720800000000000000
-    internalID: 0
+    internalID: 1537655665
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable: {}
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
