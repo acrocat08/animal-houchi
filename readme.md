@@ -24,5 +24,13 @@
 - 右クリック...リサイクル
 - マウスホイール...スクロール
 
+## ゲームデータ
+こちらからダウンロードお願いします。
+
+https://github.com/acrocat08/animal-houchi/releases/tag/v1.0
+
+
+
+
 <img width="1148" alt="スクリーンショット 2022-08-01 0 15 34" src="https://user-images.githubusercontent.com/33351403/182033106-a9252aea-05d1-4321-b3c5-a724bcdaa5cd.png">
 ▲プレイ画面の一例。合体させずに放置させるとこんな感じになります。
